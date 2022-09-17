@@ -1,0 +1,8 @@
+package com.example.course_registrstion_system.payload;
+
+import lombok.Data;
+
+@Data
+public class JwtAuthResponse {
+    private String token;
+}
